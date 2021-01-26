@@ -44,7 +44,7 @@ repeat {
 } while false
 
 
-//Exiting loops
+//Exiting loops - выход из циклов
 var countDown = 10
 
 while countDown >= 0 {
@@ -66,7 +66,7 @@ while countDown >= 0 {
 }
 
 
-//Exiting multiple loops
+//Exiting multiple loops - выход из нескольких циклов
 for i in 1...3 {
     for j in 1...3 {
         let product = i * j
@@ -94,7 +94,7 @@ outerLoop: for i in 1...10 {
 }
 
 
-//Skipping items
+//Skipping items - пропуск
 for i in 1...10 {
     if i % 2 == 1 {
         continue
@@ -104,7 +104,7 @@ for i in 1...10 {
 }
 
 
-//Infinite loops
+//Infinite loops - бесконечные циклы
 var counter = 0
 
 while true {
