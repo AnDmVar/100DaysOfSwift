@@ -1,4 +1,4 @@
-//Writing functions
+//Writing functions - функции
 func printHelp() {
     let message = """
 Welcome to MyApp!
@@ -11,13 +11,13 @@ MyApp will resize them all into thumbnails
 }
 printHelp()
 
-//Accepting parameters
+//Accepting parameters - входные параметры функции
 func square(number: Int) {
     print(number * number)
 }
 square(number: 8)
 
-//Returning values
+//Returning values - возвращаемое значение
 func square1(number: Int) -> Int {
     return number * number
 }
@@ -80,7 +80,7 @@ do {
     print("You can't use that password.")
 }
 
-//inout parameters
+//inout parameters - сквозные параметры
 func doubleInPlace(number: inout Int) {
     number *= 2
 }
