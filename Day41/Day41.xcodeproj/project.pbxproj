@@ -13,6 +13,8 @@
 		E4308FEC261262C5005FB774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4308FEA261262C5005FB774 /* Main.storyboard */; };
 		E4308FEE261262C7005FB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4308FED261262C7005FB774 /* Assets.xcassets */; };
 		E4308FF1261262C7005FB774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4308FEF261262C7005FB774 /* LaunchScreen.storyboard */; };
+		E44ABD5B261B4B38006EC205 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = E44ABD59261B4B37006EC205 /* level1.txt */; };
+		E44ABD5C261B4B38006EC205 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E44ABD5A261B4B37006EC205 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E4308FED261262C7005FB774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4308FF0261262C7005FB774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4308FF2261262C7005FB774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44ABD59261B4B37006EC205 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = ../../Project8/Project8/level1.txt; sourceTree = "<group>"; };
+		E44ABD5A261B4B37006EC205 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level2.txt; path = ../../Project8/Project8/level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E4308FED261262C7005FB774 /* Assets.xcassets */,
 				E4308FEF261262C7005FB774 /* LaunchScreen.storyboard */,
 				E4308FF2261262C7005FB774 /* Info.plist */,
+				E44ABD59261B4B37006EC205 /* level1.txt */,
+				E44ABD5A261B4B37006EC205 /* level2.txt */,
 			);
 			path = Day41;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44ABD5C261B4B38006EC205 /* level2.txt in Resources */,
 				E4308FF1261262C7005FB774 /* LaunchScreen.storyboard in Resources */,
+				E44ABD5B261B4B38006EC205 /* level1.txt in Resources */,
 				E4308FEE261262C7005FB774 /* Assets.xcassets in Resources */,
 				E4308FEC261262C5005FB774 /* Main.storyboard in Resources */,
 			);
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andmvar.Day41;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andmvar.Day41;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
